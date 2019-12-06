@@ -4,16 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="static/plug-in/vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="static/plug-in/vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Custom Font Icons CSS-->
-    <link rel="stylesheet" href="static/plug-in/css/font.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="static/plug-in/css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="static/plug-in/css/custom.css">
     <title>主页</title>
 </head>
 <body>
@@ -41,7 +31,8 @@
             <div class="right-menu list-inline no-margin-bottom">
                 <!-- Log out -->
                 <div class="list-inline-item logout">
-                    <a id="logout" href="../index.jsp" class="nav-link"><span class="d-none d-sm-inline">退出 </span></a>
+                    当前在线人数：${applicationScope.applicationLoginCount}
+                    <a id="logout" href="/sys/login/exit" class="nav-link btn btn-primary" style="color: wheat"><span class="d-none d-sm-inline">切换账号</span></a>
                 </div>
             </div>
         </div>
@@ -49,13 +40,4 @@
 </header>
 </body>
 
-<script src="static/plug-in/vendor/jquery/jquery.min.js"></script>
-<script src="static/plug-in/vendor/popper.js/umd/popper.min.js"> </script>
-<script src="static/plug-in/vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="static/plug-in/vendor/jquery.cookie/jquery.cookie.js"> </script>
-<script src="static/plug-in/vendor/chart.js/Chart.min.js"></script>
-<script src="static/plug-in/vendor/jquery-validation/jquery.validate.min.js"></script>
-<script src="static/plug-in/js/charts-home.js"></script>
-<script src="static/plug-in/js/front.js"></script>
-<script src="static/plug-in/js/custom.js"></script>
 </html>

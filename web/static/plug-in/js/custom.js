@@ -49,7 +49,7 @@ $(function () {
 
     })
 
-    $('.chosen').chosen({
+    /*$('.chosen').chosen({
         no_results_text: "没有找到结果！",//搜索无结果时显示的提示
         search_contains:true,   //关键字模糊搜索。设置为true，只要选项包含搜索词就会显示；设置为false，则要求从选项开头开始匹配
         allow_single_deselect:true, //单选下拉框是否允许取消选择。如果允许，选中选项会有一个x号可以删除选项
@@ -64,7 +64,7 @@ $(function () {
         case_sensitive_search: false, //搜索大小写敏感。此处设为不敏感
         group_search: false, //选项组是否可搜。此处搜索不可搜
         include_group_label_in_selected: true //选中选项是否显示选项分组。false不显示，true显示。默认false。
-    });
+    });*/
 });
 
 //触发隐藏的file表单

@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
  * @Description:
  */
 @WebServlet("/sys/menu")
-public class MenuServlet extends HttpServlet {
+public class MenuServlet extends BaseServlet {
 
     private MenuServiceImpl service = new MenuServiceImpl();
 

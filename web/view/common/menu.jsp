@@ -2,21 +2,12 @@
 <html>
 <head>
     <title>$Title$</title>
-    <link rel="stylesheet" href="static/plug-in/vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="static/plug-in/vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Custom Font Icons CSS-->
-    <link rel="stylesheet" href="static/plug-in/css/font.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="static/plug-in/css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="static/plug-in/css/custom.css">
 </head>
 <body>
 <nav id="sidebar">
     <!-- Sidebar Header-->
     <div class="sidebar-header d-flex align-items-center">
-        <div id="avatar" class="avatar"><img src="../static/plug-in/img/avatar-6.jpg" alt="..." class="img-fluid rounded-circle"></div>
+        <div id="avatar" class="avatar"><img src="/static/plug-in/img/avatar-6.jpg" alt="..." class="img-fluid rounded-circle"></div>
         <div class="title">
             <h1 class="h5">小标</h1>
             <p>研发部</p>
@@ -30,7 +21,7 @@
 
 </nav>
 </body>
-<script src="../static/js/jquery-3.3.1.js"></script>
+<script src="/static/js/jquery-3.3.1.js"></script>
 <script>
     $(function () {
         $.ajax({
